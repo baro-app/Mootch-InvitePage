@@ -1,0 +1,206 @@
+<html>
+<head>
+<link rel="icon" type="image/png" href="favicon.png" />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<meta name="google-site-verification" content="il1sxkXfYGkn6HB6ag08_nooh1mCFkw0DQuEsEnS4lQ" />
+<style>
+body {
+	margin: 0px;
+	padding: 0px;
+}
+* {
+	font-family: 'Lato', sans-serif;
+}
+.container {
+	width: 900px;
+	margin: 0px auto;
+	padding: 10px;
+}
+.whitebox {
+	position: relative;
+	width: 700px;
+	color: #FFF;
+	margin: 0px auto;
+	background: #FCAFDF;
+	border-radius: 10px;
+	font-size: 1.5em;
+}
+.inviteform {
+	margin: 0px auto;
+	width: 600px;
+}
+.inviteform > form >input {
+	width: 600px;
+	font-size: 2.5em;
+	padding: 3px;
+}
+.inviteform > form >input[type=text] {
+	background: #FFF;
+	color: #BBB;
+	border: 0px solid #EEE;
+	border-bottom: 7px solid #CCC;
+}
+.inviteform > form >input[type=submit] {
+	background: #FCD920;
+	color: #FFF;
+	border: 0px solid #EEE;
+	border-bottom: 7px solid #F1Ce16;
+	cursor: pointer;
+}
+.optiontext {
+	font-size: 2.0em;
+	color: #999;
+	
+}
+.abouttext {
+	font-size: 1.3em;
+	color: #888;	
+}
+.panel1 {
+	background: #E53B51;
+	height: 250px;
+}
+.panel2 {
+	background: #EEE;
+	padding: 30px 0px;
+}
+.panel3 {
+	background: #DDD;
+	padding: 30px 0px;
+}
+.panel4 {
+	background: #EEE;
+	height: 140px;
+}
+
+input[type=checkbox].css-checkbox {
+display:none;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+padding-left:20px;
+height:17px; 
+display:inline-block;
+line-height:20px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:1.5em;
+vertical-align:middle;
+cursor:pointer;
+margin-bottom: 40px;
+color: #888;
+}
+
+input[type=checkbox].css-checkbox {
+
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+background-position: 0 -17px;
+}
+
+.css-label{ 
+	background-image:url(http://csscheckbox.com/checkboxes/elegant.png); 
+
+}
+a {
+	text-decoration: none;
+}
+
+</style>
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<title>mootch.it</title>
+</head>
+<body>
+<div class="panel1">
+	<div class="container">
+		<center>
+		<img src="logo1.png" alt="mootch.it" style="margin-top: 20px;"/>
+		</center>
+	</div>
+</div>
+<div class="panel2">
+<center>
+<iframe width="560" height="315" src="//www.youtube.com/embed/d-wtlWcZcn4" frameborder="0" allowfullscreen></iframe>
+</center><br/><br/>
+	<div style=" width: 600px; margin:0px auto; font-size: 1.5em; color: #888; margin-bottom: 0px;">
+		Can't wait to start Mootching? Sign up below to get all the news and updates. We'll make sure you're the first to know.		
+	</div>
+	<div class="inviteform">
+	<form id="invite" style="margin-top: 30px;">
+		<div id="message" style="display:none; color: #FF0000; padding-bottom: 20px;"></div>
+        <div style="font-size:2.5em; color:#BBB; text-align: center;">What's your e-mail?</div>
+		<input type="text" name="email" style="color: #333; margin-bottom: 25px; text-align: center;"/><br/>
+        <div style="font-size:1.5em; color:#BBB;">Check one or both boxes!</div><br/><br/>
+		<input id="css-checkbox-1" class="css-checkbox" type="checkbox" name="thing_to_rent" />
+		<label for="css-checkbox-1" class="css-label" style="margin-left:10px;"> 
+			&nbsp; I have item(s) I want to rent OUT TO someone else. 
+		</label><br/>
+        <div id="items1" style="display:none;"><input style="font-size: 1.5em; color:#333;width: 500px; border: 0px; margin-left: 30px;" type="text" name="rentout" placeholder="List your item(s) here."/></div><br/>
+		<input id="css-checkbox-2" class="css-checkbox" type="checkbox" name="want_to_rent_thing"/>
+		<label for="css-checkbox-2" class="css-label" style="margin-left: 10px;">&nbsp; I have item(s) I want to rent FROM someone else.</label><br/>
+        <div id="items2" style="display:none;"><input style="font-size: 1.5em; color:#333; width: 500px; border:0px; margin-left: 30px;" type="text" name="rentin" placeholder="List your item(s) here."/></div><br/>
+		<input type="submit" value="Invite me!"/>
+	</form>
+	</div>
+</div>
+<div class="panel3">
+<div style="border-top: 3px dashed #FFF; border-bottom: 3px dashed #FFF; padding-top: 15px;">
+<div class="container abouttext" style="padding: 0px">
+	<div style="width: 50%; float: left; margin-left: 130px;">
+	<strong style="color: #555;">ABOUT MOOTCH</strong> <br/>
+Mootch is the mobile app for peer-to-peer renting. We are working to create a simple, user-friendly platform on which you can find out what is available in your local community and how you can earn extra cash by renting out what you have. Why buy something when you can Mootch it?
+	</div>
+	<div style="float: right: width: 45%;">
+		<img src="madeinny.png" alt="Made in NYC" style="float:right; margin-right:120px; margin-top: 40px;"/>
+		<br style="clear:both;"/>
+	</div>
+	<br style="clear: both;"/>
+</div>
+</div>
+</div>
+<div class="panel4">
+	<div class="container">
+		<div style="float: left; margin-left: 130px; color: #999; margin-top: 50px;">
+			&copy; Copyright 2013 Mootch LLC. All right reserved.
+		</div>
+		<div style="float: right; margin-right: 120px; margin-top:40px;">
+			<div style="float:right; margin-left: 10px;"><a href="http://youtube.com/mootchit"><img src="youtube.svg"/></a></div>
+			<div style="float:right; margin-left: 10px;"><a href="http://twitter.com/mootchit"><img src="twitter.svg"/></a></div>
+			<div style="float:right; margin-left: 10px;"><a href="http://facebook.com/mootch.it"><img src="facebook.svg"/></a></div>
+		</div>
+		<br style="clear:both;"/>
+	</div>
+<script>
+$(function() {
+
+	$('#invite').submit(function(e) {
+		e.preventDefault();
+		$.post('/invite.php', $("#invite").serializeArray(), function(result) {
+			response = $.parseJSON(result);
+			if(response.success == 'false') {
+				$('#message').html(response.message);
+				$('#message').fadeIn();
+			 } else if(response.success == 'true') {
+				$('#message').fadeOut();
+				$.get('/thankyou.html', function(res) {
+					$('.panel2').html(res);
+				});
+			}
+		});
+	});
+   
+    $('#css-checkbox-1').on('click', function() {
+        if(!$(this).is(':checked')) $('#items1').slideUp();
+        else $('#items1').slideDown();
+    });
+
+    $('#css-checkbox-2').on('click', function() {
+        if(!$(this).is(':checked')) $('#items2').slideUp();
+        else $('#items2').slideDown();
+    });
+
+});
+</script>
+</body>
+</html>
